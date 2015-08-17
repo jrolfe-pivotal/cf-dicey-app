@@ -6,8 +6,8 @@ get '/' do
 
   #Simulate work
   case rand*100
-#  when 0...10              #v1 - slow + errors 10% of the time
-  when 0...15             #v2 - should be better
+  when 0...10              #v1 - slow + errors 10% of the time
+#  when 0...15             #v2 - should be better
 #  when 0...5              #v3 - is actually better
     sleep rand(5..10)
     status 503

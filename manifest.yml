@@ -1,7 +1,7 @@
 ---
 applications:
-- name: dicey_v2
+- name: dicey_v1
   memory: 128M
   instances: 1
-  host: dicey_v2
+  host: dicey_v1
   path: .

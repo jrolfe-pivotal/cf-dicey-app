@@ -4,7 +4,7 @@ require 'json/pure'
 
 get '/' do
 
-  #Simulate work
+  # Simulate work
   case rand*100
   when 0...10              #v1 - slow + errors 10% of the time
 #  when 0...15             #v2 - should be better
